@@ -1,4 +1,4 @@
-# ASBS - A_space blog system
+# [ASBS - A_space blog system](https://github.com/Joeeyy/ASBS)
 
 NUDT 2017 秋季学期MIS课程设计
 
@@ -61,5 +61,5 @@ mysql> source ./asbs.sql
 
 ## 0x03 写在最后
 作者email: joeeeee@foxmail.com
-开发过程中对安全因素考虑较少，可以拿来做靶机系统使用。
-开发水平不高，周期短，疏漏多，各位看客如果有建议的话欢迎指教！
+<br>开发过程中对安全因素考虑较少，可以拿来做靶机系统使用。
+<br>开发水平不高，周期短，疏漏多，各位看客如果有建议的话欢迎指教！
