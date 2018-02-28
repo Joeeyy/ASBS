@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+    <entry>
+        <title><![CDATA[虚拟机中调整Ubuntu Server分辨率]]></title>
+        <url>
+            %2Fblog%2Fpublic%2F2018%2F01%2F24%2F%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%AD%E8%B0%83%E6%95%B4Ubuntu-Server%E5%88%86%E8%BE%A8%E7%8E%87
+        </url>
+        <content type="text">
+            <![CDATA[引自：调整虚拟机中Ubuntu Server 屏幕分辨率 打开grub文件:$ sudo vi /etc/default/grub 修改参数GRUB_CMDLINE_LINUX的值:GRUB_CMDLINE_LINUX=&quot;vga=0x317&quot;参数值参考下图： 显存 640x480 800x600 1024x768 1280x1024 256 0x301 0x303 0x305 0x307 32k 0x310 0x313 0x316 0x319 64k 0x311 0x314 0x317 0x31A 16M 0x312 0x315 0x318 0x31B $ sudo update-grub $ sudo reboot]]>
+        </content>
+        <categories>
+            <category>Ubuntu Server</category>
+            <category>配置</category>
+        </categories>
+        <tags>
+            <tag>Ubuntu Server</tag>
+            <tag>分辨率调整</tag>
+        </tags>
+    </entry>
+
+    <entry>
+        <title><![CDATA[mac-pip-install]]></title>
+        <url>http://localhost/ASBS/article?blog_id=1</url>
+        <content type="text"><![CDATA[test]]></content>
+        <category/>
+        <tags>
+            <tag/>
+        </tags>
+    </entry>
+    <entry>
+        <title><![CDATA[mac-pip-install]]></title>
+        <url>http://localhost/ASBS/article?blog_id=2</url>
+        <content type="text"><![CDATA[#test]]></content>
+        <category/>
+        <tags>
+            <tag/>
+        </tags>
+    </entry>
+    <entry>
+        <title><![CDATA[mac-pip-install]]></title>
+        <url>http://localhost/ASBS/article?blog_id=3</url>
+        <content type="text"><![CDATA[MacOS系统中pip install 时常出现`Permission Denied`的情况，可以采用以下方式解决问题。
+```bash
+ $ pip install --user <package name>
+```
+]]></content>
+        <category/>
+        <tags>
+            <tag>MacOS</tag>
+            <tag>Python</tag>
+            <tag>pip install</tag>
+        </tags>
+    </entry>
+    <entry>
+        <title><![CDATA[test]]></title>
+        <url>http://localhost/ASBS/article?blog_id=4</url>
+        <content type="text"><![CDATA[test]]></content>
+        <category/>
+        <tags>
+            <tag/>
+        </tags>
+    </entry>
+    <entry>
+        <title><![CDATA[Test]]></title>
+        <url>http://localhost/ASBS/article?blog_id=5</url>
+        <content type="text"><![CDATA[This is a test.]]></content>
+        <category/>
+        <tags>
+            <tag/>
+        </tags>
+    </entry>
+    <entry>
+        <title><![CDATA[今天天气不错的]]></title>
+        <url>http://localhost/ASBS/article?blog_id=12</url>
+        <content type="text"><![CDATA[# 今天天气不错的
+
+是的天气不错。]]></content>
+        <category/>
+        <tags>
+            <tag>天气</tag>
+        </tags>
+    </entry>
+    <entry>
+        <title><![CDATA[博客增加了检索功能]]></title>
+        <url>http://localhost/ASBS/article?blog_id=13</url>
+        <content type="text"><![CDATA[# 博客增加了检索功能
+
+## 基于
+基于xml
+
+## 如何
+在插入文章时同时插入xml，在xml进行实时检索]]></content>
+        <category/>
+        <tags>
+            <tag>博客</tag>
+            <tag>检索</tag>
+            <tag>功能</tag>
+        </tags>
+    </entry>
+    <entry>
+        <title><![CDATA[测试检索功能]]></title>
+        <url>http://localhost/ASBS/article?blog_id=14</url>
+        <content type="text"><![CDATA[*测试*
+**检索**
+***功能***]]></content>
+        <category>test</category>
+        <tags>
+            <tag>测试</tag>
+            <tag>检索功能</tag>
+        </tags>
+    </entry>
+<entry><title><![CDATA[111]]></title><url>http://localhost/ASBS/article?blog_id=15</url><content type="text"><![CDATA[111]]></content><category>test</category><tags><tag>1</tag><tag>2</tag><tag>3</tag></tags></entry><entry><title><![CDATA[aaa]]></title><url>http://localhost/ASBS/article?blog_id=16</url><content type="text"><![CDATA[aaa]]></content><category>test</category><tags><tag/></tags></entry><entry><title><![CDATA[这是我的第一篇博客]]></title><url>http://localhost/ASBS/article?blog_id=17</url><content type="text"><![CDATA[> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi viverra nec fringilla in laoreet vitae risus.
+> 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.]]></content><category>生活</category><tags><tag>第一篇博客</tag></tags></entry><entry><title><![CDATA[信息系统必过]]></title><url>http://localhost/ASBS/article?blog_id=18</url><content type="text"><![CDATA[明天信息系统肯定过]]></content><category>生活</category><tags><tag></tag></tags></entry></search>

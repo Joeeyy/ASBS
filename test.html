@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./frontend/lib/img-captcha/css/captcha.css">
+</head>
+<body>
+
+<canvas id="canvas_login" width="500" height="400"></canvas>
+
+<script src="./frontend/lib/img-captcha/src/captcha.js"></script>
+<script>
+    imgCaptcha('canvas_login', {
+        imgurl: ['./frontend/lib/img-captcha/bgimg/demo.jpeg','./frontend/lib/img-captcha/bgimg/demo1.jpeg','./frontend/lib/img-captcha/bgimg/demo2.jpg','./frontend/lib/img-captcha/bgimg/demo3.jpg'],
+        cw: 66,
+        ch: 66,
+        onSuccess: function() {
+            console.log("success");
+        },
+        onError: function() {
+            console.log("error");
+        }
+    });
+</script>
+</body>
+</html>
