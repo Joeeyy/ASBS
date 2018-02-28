@@ -59,7 +59,7 @@ mysql> source ./asbs.sql
 ### 访问系统
 浏览器地址栏输入`http://localhost/ASBS`可以开始使用该系统。
 
-## 0x03 写在最后
+## 0x04 写在最后
 作者email: joeeeee@foxmail.com
 <br>开发过程中对安全因素考虑较少，可以拿来做靶机系统使用。
 <br>开发水平不高，周期短，疏漏多，各位看客如果有建议的话欢迎指教！
